@@ -4,7 +4,7 @@ Recreated the PC website from (G)I-DLE's 'I Feel' album teaser video as a respon
 <br>
 📌[티져 영상보기](https://youtu.be/38kvqREhg8k?si=i4LJBnqwTAmET3yh&t=29) <br><br>
 
-📌[홈페이지 바로가기](https://fold6.github.io/dreamcatcher_summerholiday_hp/)<br>
+📌[홈페이지 바로가기](https://fold6.github.io/Gidle_how_to_be_a_queen-landing-respon/index.html)<br>
 
 <br>
 <br>
