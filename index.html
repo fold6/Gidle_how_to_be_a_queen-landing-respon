@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>How To Be A Queen</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          referrerpolicy="no-referrer" />
+     <!-- 폰트어썸 아이콘-->
+
+     <link href="css/font.css" rel="stylesheet" />
+     <link href="css/common.css" rel="stylesheet" />
+     <link href="css/index.css" rel="stylesheet" />
+     <link href="css/reset.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+     <!-- 일단 헤더 주석만 <js도 살려둠 -->
+     <header>
+          <div class="header_in">
+               <div class="logo">
+                    <a href="#"></a>
+               </div>
+               <div class="pc_none">
+                    <div class="pc">
+                         <ul>
+                              <li>
+                                   <a href="https://www.tiktok.com/@official_gidle" target="blank">Tiktok</a>
+                              </li>
+                              <li>
+                                   <a href="https://www.instagram.com/official_g_i_dle/" target="blank">Instargram</a>
+                              </li>
+                              <li>
+                                   <a href="https://weverse.io/gidle/feed?hl=ko" target="blank">Weverse</a>
+                              </li>
+                              <li class="G_yt">
+                                   <a href="https://www.youtube.com/channel/UCritGVo7pLJLUS8wEu32vow"
+                                        target="blank">Youtube</a>
+                              </li>
+                         </ul>
+                    </div>
+
+               </div>
+
+
+               <i class="fas fa-bars"></i>
+               <i class="fas fa-times"></i>
+               <nav class="mobile">
+                    <div class="mo_wrap">
+                         <div class="mo_inner">
+                              <ul>
+                                   <li>
+                                        <a href="https://www.tiktok.com/@official_gidle" target="blank">Tiktok</a>
+                                   </li>
+                                   <li>
+                                        <a href="https://www.instagram.com/official_g_i_dle/"
+                                             target="blank">Instargram</a>
+                                   </li>
+                                   <li>
+                                        <a href="https://weverse.io/gidle/feed?hl=ko" target="blank">Weverse</a>
+                                   </li>
+                                   <li class="G_yt">
+                                        <a href="https://www.youtube.com/channel/UCritGVo7pLJLUS8wEu32vow"
+                                             target="blank">Youtube</a>
+                                   </li>
+                              </ul>
+
+                         </div>
+                    </div>
+               </nav>
+          </div>
+     </header>
+
+
+     <!-- 팝업 -->
+     <div class="popup_pop" id="popup">
+          <div class="close_btn_cir" id="close_btn">
+               <i class="fas fa-times"></i>
+          </div>
+
+
+          <div class="shadow_wrap">
+               <div class="top_auto">
+                    <div class="yt">
+
+                         <!-- 티저 (최초 한번만 나옴) -->
+                         <div id="ep0" style="display: block;">
+                              <!-- 16:9 비율로 만들기위해 div로 한번더 감쌈 -->
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qg8vNx_jQYU"
+                                   title="YouTube video player" frameborder="0" allow="accelerometer;  autoplay;"
+                                   allowfullscreen> 
+                              </iframe>
+                         </div>
+
+                         <!-- 1번곡 queencard -->
+                         <div id="ep1" style="display: none;">
+                              <!-- 16:9 비율로 만들기위해 div로 한번더 감쌈 -->
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7HDeem-JaSY"
+                                   title="YouTube video player" frameborder="0"
+                                   allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture"
+                                   allowfullscreen>
+                              </iframe>
+                         </div>
+
+                         <!-- 2번곡 Allergy -->
+                         <div id="ep2" style="display: none;">
+                              <!-- 16:9 비율로 만들기위해 div로 한번더 감쌈 -->
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XZaBkbvteBc"
+                                   title="YouTube video player" frameborder="0"
+                                   allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture"
+                                   allowfullscreen>
+                              </iframe>
+                         </div>
+
+                         <!-- 3번곡 Lucid-->
+                         <div id="ep3" style="display: none;">
+                              <!-- 16:9 비율로 만들기위해 div로 한번더 감쌈 -->
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Bd5950W2b5E"
+                                   title="YouTube video player" frameborder="0"
+                                   allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture"
+                                   allowfullscreen>
+                              </iframe>
+                         </div>
+
+                         <!-- 4번곡 Allnight -->
+                         <div id="ep4" style="display: none;">
+                              <!-- 16:9 비율로 만들기위해 div로 한번더 감쌈 -->
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/iOoeLYqx3yI"
+                                   title="YouTube video player" frameborder="0"
+                                   allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture"
+                                   allowfullscreen>
+                              </iframe>
+                         </div>
+
+                         <!-- 5번곡 Paradise -->
+                         <div id="ep5" style="display: none;">
+                              <!-- 16:9 비율로 만들기위해 div로 한번더 감쌈 -->
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PCbx5U-S5ec"
+                                   title="YouTube video player" frameborder="0"
+                                   allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture"
+                                   allowfullscreen>
+                              </iframe>
+                         </div>
+
+                         <!-- 6번곡 Peter Pan -->
+                         <div id="ep6" style="display: none;">
+                              <!-- 16:9 비율로 만들기위해 div로 한번더 감쌈 -->
+                              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ypsaGJzyAjg"
+                                   title="YouTube video player" frameborder="0"
+                                   allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture"
+                                   allowfullscreen>
+                              </iframe>
+                         </div>
+
+
+
+                    </div>
+               </div>
+
+               <div class="list">
+                    <div class="list_top_text">
+                         <p class="left_text">6 Episodes</p>
+                         <p class="right_text">Cast <span>(G)I-DLE</span></p>
+                    </div>
+                    <!--  -->
+                    <div class="list_wrap">
+                         <ul class="ep_list">
+
+                              <li class="ep">
+                                   <a class="ep1">
+                                        <p class="ep_num">1</p>
+                                        <p class="ep_img"><img src="img/thumbnail1.png"></p>
+                                        <p class="ep_detail">
+                                             Episode 01.퀸카 (Queencard) <span class="br"><br></span> "거울과 사랑에 빠졌다."
+                                             <span class="ep_detail_small">
+                                                  Composed by.소연, Pop Time, Daily, Likey<br>
+                                                  Lyrics by 소연<br>
+                                                  Arranged by Pop Time, Daily, Likey, 소연
+                                             </span>
+                                        </p>
+                                   </a>
+                              </li>
+
+                              <li class="ep">
+                                   <a class="ep2">
+                                        <p class="ep_num">2</p>
+                                        <p class="ep_img"><img src="img/thumbnail2.png"></p>
+                                        <p class="ep_detail">
+                                             Episode 02.Allergy <span class="br"><br></span>"거울이 싫다."
+                                             <span class="ep_detail_small">
+                                                  Composed by.소연, Pop Time, Daily, Likey, Kako<br>
+                                                  Lyrics by 소연<br>
+                                                  Arranged by Pop Time, Daily, Likey, 소연
+                                             </span>
+                                        </p>
+                                   </a>
+                              </li>
+
+                              <li class="ep">
+                                   <a class="ep3">
+                                        <p class="ep_num">3</p>
+                                        <p class="ep_img"><img src="img/thumbnail3.png"></p>
+                                        <p class="ep_detail">
+                                             Episode 03.Lucid <span class="br"><br></span> "너와 함께 춤을 출 거야."
+                                             <span class="ep_detail_small">
+                                                  Composed by.민니, BreadBeat, 신쿵<br>
+                                                  Lyrics by 민니, 소연<br>
+                                                  Arranged by BreadBeat, 신쿵
+                                             </span>
+                                        </p>
+                                   </a>
+                              </li>
+
+                              <li class="ep">
+                                   <a class="ep4">
+                                        <p class="ep_num">4</p>
+                                        <p class="ep_img"><img src="img/thumbnail4.png"></p>
+                                        <p class="ep_detail">
+                                             Episode 04.All Night <span class="br"><br></span> "나로 물들인 밤."
+                                             <span class="ep_detail_small">
+                                                  Composed by.우기, Siixk Jun<br>
+                                                  Lyrics by 우기, 우석<br>
+                                                  Arranged by Siixk Jun
+                                             </span>
+                                        </p>
+                                   </a>
+                              </li>
+
+                              <li class="ep">
+                                   <a class="ep5">
+                                        <p class="ep_num">5</p>
+                                        <p class="ep_img"><img src="img/thumbnail5.png"></p>
+                                        <p class="ep_detail">
+                                             Episode 05.Paradise <span class="br"><br></span> "너의 꿈이 되어 줄게."
+                                             <span class="ep_detail_small">
+                                                  Composed by.민니, BreadBeat<br>
+                                                  Lyrics by 민니, 비오(B.O.), 소연<br>
+                                                  Arranged by BreadBeat
+                                             </span>
+                                        </p>
+                                   </a>
+                              </li>
+
+                              <li class="ep">
+                                   <a class="ep6">
+                                        <p class="ep_num">6</p>
+                                        <p class="ep_img"><img src="img/thumbnail6.png"></p>
+                                        <p class="ep_detail">
+                                             Episode 06.어린 어른 <span class="br"><br></span> "어른과 마주한 우리에게."
+                                             <span class="ep_detail_small">
+                                                  Composed by.우기, Siixk Jun, 우석<br>
+                                                  Lyrics by 소연, 우기<br>
+                                                  Arranged by Siixk Jun
+                                             </span>
+                                        </p>
+                                   </a>
+                              </li>
+
+
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="bk_wrap"></div>
+     <div class="mo_bk_wrap"></div>
+
+
+
+
+     <main>
+          <div class="main_visual">
+               <div class="main_pc_bg">
+                    <img class="pc_main_img" src="img/gidle_pc.jpg">
+                    <img class="mo_main_img" src="img/gidle_mo.jpg">
+                    <div class="inner_footer">
+                         <p class="notice">This site is a fan-made site, not an official site.<br>
+                              이 사이트는 공식사이트가 아닌 팬 메이드 사이트 입니다
+                              <p class="optimized">optimized for 🖥️ 1920 x 1080 PC and 📱 385 x 785 mobile.</p>
+                              <span class="made_by"> -last update : 230514 </span></p>
+                    </div>
+                    <div class="register" id="regi_pop">
+                         <p class="regi_btn">Register</p>
+                         <img src="img/btn_bf.png">
+                    </div>
+               </div>
+          </div>
+
+     </main>
+
+
+
+
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script>
+          // $(document).ready(function () {
+
+          // $(function () {
+          //      const mobile = $('.mobile');
+          //      const headerBars = $('.header_in .fa-bars');
+          //      const headerTimes = $('.header_in .fa-times');
+          //      const bkWrap = $('.bk_wrap');
+          //      const html = $('html');
+
+          //      headerBars.click(function () {
+          //           mobile.css('left', '0');
+          //           headerBars.hide();
+          //           headerTimes.show();
+          //           bkWrap.fadeIn(50);
+          //           html.css('overflow', 'hidden');
+          //      });
+
+          //      function closeMobileMenu() {
+          //           mobile.css('left', '-100%');
+          //           headerBars.show();
+          //           headerTimes.hide();
+          //           bkWrap.fadeOut();
+          //           html.css('overflow', 'auto');
+          //      }
+
+          //      headerTimes.click(closeMobileMenu);
+          //      bkWrap.click(closeMobileMenu);
+          // });
+
+          $(function () {
+               //햄버거 아이콘 클릭시 .mobile이 좌->우측 메뉴
+               $('.header_in .fa-bars').click(function () {
+                    // $('.mobile').addClass('bk');
+                    $('.mobile').css({
+                         'left': '0'
+                    });
+                    $('.header_in .fa-bars').hide();
+                    $('.header_in .fa-times').show();
+                    $('.mo_bk_wrap').fadeIn(50);
+                    $('html').css('overflow', 'hidden');
+               });
+
+
+
+               $('.header_in .fa-times').click(function () {
+                    // $('.bk').removeClass('bk');
+                    // $('.bk').hide(0);
+                    $('.mobile').css({
+                         'left': '-100%'
+                    });
+                    $('.header_in .fa-bars').show();
+                    $('.header_in .fa-times').hide();
+                    $('.mo_bk_wrap').fadeOut();
+                    $('html').css('overflow', 'auto');
+               });
+
+               $('.mo_bk_wrap').click(function () {
+                    $('.mobile').css({
+                         'left': '-100%'
+                    });
+                    $('.header_in .fa-bars').show();
+                    $('.header_in .fa-times').hide();
+                    $('.mo_bk_wrap').fadeOut();
+                    $('html').css('overflow', 'auto');
+               });
+          });
+
+
+
+
+          // 헤더고정 스크롤
+          $(function () {
+               var headerTop = $('header').offset().top;
+               $(window).scroll(function () {
+                    var scrollTop = $(window).scrollTop();
+                    if (headerTop < scrollTop) {
+                         $('header').addClass('fixed').stop();
+                    } else {
+                         $('header').removeClass('fixed');
+                    }
+               });
+          })
+
+
+
+
+          /* 팝업 */
+
+          $(function () {
+               var iframeBackup; // iframe 백업 변수
+
+               const regiBtn = $('#regi_pop');
+               const popup = $('#popup');
+               const bkWrap = $('.bk_wrap');
+
+               function showPopup() {
+                    popup.css('display', 'block');
+                    setTimeout(function () {
+                         popup.css('opacity', '1');
+                    }, 10);
+                    bkWrap.fadeIn(100);
+                    $('html').css('overflow', 'hidden');
+               }
+
+               function hidePopup() {
+                    iframeBackup = $("iframe").detach(); // iframe 제거하고 백업 변수에 저장
+
+                    popup.animate({
+                         opacity: 0
+                    }, 100, function () {
+                         popup.css('display', 'none');
+                    });
+                    bkWrap.fadeOut();
+                    $('html').css('overflow', 'auto');
+                    window.location.reload(true);
+               }
+
+               regiBtn.click(function () {
+                    showPopup();
+                    if (iframeBackup) {
+                         $("body").append(iframeBackup); // 백업된 iframe을 다시 추가
+                         iframeBackup = null; // 백업 변수 초기화
+                    }
+               });
+
+               $('#close_btn').click(hidePopup);
+
+               bkWrap.click(hidePopup);
+          });
+
+
+
+
+
+
+
+          /* 재생목록 */
+          $(document).ready(function () {
+  $(".ytp-chrome-top").remove();
+
+               $(".ep1").click(function () {
+                    $(".yt").find("iframe").remove();
+                    $("#ep1").siblings().css("display", "none");
+                    $("#ep1").css("display", "block");
+                    $("#ep1").append("<iframe src='https://www.youtube.com/embed/7HDeem-JaSY'></iframe>");
+               });
+
+               $(".ep2").click(function () {
+                    $(".yt").find("iframe").remove();
+                    $("#ep2").siblings().css("display", "none");
+                    $("#ep2").css("display", "block");
+                    $("#ep2").append("<iframe src='https://www.youtube.com/embed/XZaBkbvteBc'></iframe>");
+               });
+
+               $(".ep3").click(function () {
+                    $(".yt").find("iframe").remove();
+                    $("#ep3").siblings().css("display", "none");
+                    $("#ep3").css("display", "block");
+                    $("#ep3").append("<iframe src='https://www.youtube.com/embed/Bd5950W2b5E'></iframe>");
+               });
+
+               $(".ep4").click(function () {
+                    $(".yt").find("iframe").remove();
+                    $("#ep4").siblings().css("display", "none");
+                    $("#ep4").css("display", "block");
+                    $("#ep4").append("<iframe src='https://www.youtube.com/embed/iOoeLYqx3yI'></iframe>");
+               });
+
+               $(".ep5").click(function () {
+                    $(".yt").find("iframe").remove();
+                    $("#ep5").siblings().css("display", "none");
+                    $("#ep5").css("display", "block");
+                    $("#ep5").append("<iframe src='https://www.youtube.com/embed/PCbx5U-S5ec'></iframe>");
+               });
+
+               $(".ep6").click(function () {
+                    $(".yt").find("iframe").remove();
+                    $("#ep6").siblings().css("display", "none");
+                    $("#ep6").css("display", "block");
+                    $("#ep6").append("<iframe src='https://www.youtube.com/embed/ypsaGJzyAjg'></iframe>");
+               });
+          });
+     </script>
+
+
+</body>
+
+</html>
